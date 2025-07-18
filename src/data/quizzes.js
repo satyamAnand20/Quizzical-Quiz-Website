@@ -415,7 +415,7 @@ export const quizzes = [
   },
   {
     id: 6,
-    title: "About the world",
+    title: "About The World",
     plays: 3,
     image: quiz6,
     questions: [
