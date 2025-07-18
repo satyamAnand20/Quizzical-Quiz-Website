@@ -1,11 +1,9 @@
 import quiz1 from "../assets/quiz1.webp";
 import quiz2 from "../assets/quiz2.webp";
-
 import quiz3 from "../assets/quiz3.webp";
 import quiz4 from "../assets/quiz4.webp";
 import quiz5 from "../assets/quiz5.webp";
 import quiz6 from "../assets/quiz6.webp";
-
 import ques1 from "../assets/ques1.jpg";
 import ques2 from "../assets/ques2.jpg";
 import ques3 from "../assets/ques3.jpg";
