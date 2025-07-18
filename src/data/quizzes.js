@@ -4,7 +4,7 @@ import quiz2 from "../assets/quiz2.webp";
 import quiz3 from "../assets/quiz3.webp";
 import quiz4 from "../assets/quiz4.webp";
 import quiz5 from "../assets/quiz5.webp";
-import quiz6 from "../assets/quiz6.jpg";
+import quiz6 from "../assets/quiz6.webp";
 
 import ques1 from "../assets/ques1.jpg";
 import ques2 from "../assets/ques2.jpg";
