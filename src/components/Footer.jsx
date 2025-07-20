@@ -8,7 +8,7 @@ import { GlobeAltIcon } from "@heroicons/react/24/outline";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#501578] text-white pt-10 pb-6">
+    <footer className="bg-gradient-to-br from-[#2C0B4F] to-[#501578] text-white pt-10 pb-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-6">
           <button className="flex items-center gap-2 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 text-white px-4 py-2 rounded-full font-medium hover:bg-gray-200 transition">
