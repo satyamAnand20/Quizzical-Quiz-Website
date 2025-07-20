@@ -9,6 +9,7 @@ function Home() {
   const texts = ["FLEX YOUR BRAIN..", "PLAY. LEARN. WIN."];
   const [textIndex, setTextIndex] = useState(0);
   const intervalRef = useRef(null);
+  const quizSectionRef = useRef(null);
 
   useEffect(() => {
     intervalRef.current = setInterval(() => {
@@ -19,7 +20,11 @@ function Home() {
 
   return (
     <>
-      <Hero />
+      <Hero
+        scrollToQuiz={() =>
+          quizSectionRef.current.scrollIntoView({ behavior: "smooth" })
+        }
+      />
 
       <div className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto">
         {/* Rotating Text Banner */}
@@ -39,7 +44,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto py-10">
+      <div
+        ref={quizSectionRef}
+        className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto py-10"
+      >
         {/* Featured Quizzes */}
         <section className="mb-12">
           <QuizCarousel

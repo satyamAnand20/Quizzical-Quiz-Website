@@ -7,6 +7,7 @@ function QuizCard({ id, title, plays, image }) {
         <div className="overflow-hidden rounded">
           <img
             src={image || "https://via.placeholder.com/300x180?text=Quiz+Image"}
+            loading="lazy"
             alt={title || "Quiz image"}
             className="w-full h-40 sm:h-44 md:h-48 object-cover rounded transform transition-transform duration-300 group-hover:scale-105"
           />

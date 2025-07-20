@@ -15,10 +15,10 @@ function Navbar() {
 
         <div className="flex items-center gap-6 text-white text-lg font-bold">
           <div className="hidden md:flex gap-12 items-center">
-            <span className="cursor-pointer hover:underline">Join</span>
+            {/* <span className="cursor-pointer hover:underline">Join</span>
             <span className="cursor-pointer hover:underline">Discover</span>
-            <span className="cursor-pointer hover:underline">AI</span>
-            <div className="bg-white text-[#FF6C86] font-bold px-3 py-1 rounded-full shadow-sm text-sm">
+            <span className="cursor-pointer hover:underline">AI</span> */}
+            <div className="bg-white text-[#FF6C86] font-bold px-3 py-1 rounded-full shadow-sm">
               🪙 12
             </div>
           </div>

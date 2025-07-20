@@ -68,6 +68,7 @@ const QuestionCard = ({
       <div className="w-[75%] h-52 overflow-hidden rounded-xl mx-auto mb-4 sm:h-56 md:h-60 sm:max-w-sm max-[849px]:w-[90%] max-[849px]:h-72">
         <img
           src={questionData.image}
+          loading="lazy"
           alt="quiz"
           className="w-full h-full object-cover object-center"
         />
