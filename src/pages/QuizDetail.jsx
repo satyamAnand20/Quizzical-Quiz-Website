@@ -26,7 +26,7 @@ function QuizDetail() {
           />
         </div>
 
-        <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-center">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-center text-yellow-400">
           {quiz.title}
         </h1>
 

@@ -60,7 +60,7 @@ function CountdownPage() {
 
         {phase === "countdown" && (
           <>
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-4">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-4">
               Quiz Starts in
             </h2>
             <div className="text-5xl sm:text-6xl font-bold text-green-400">

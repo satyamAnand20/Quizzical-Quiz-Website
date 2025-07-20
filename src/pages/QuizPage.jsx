@@ -288,7 +288,7 @@ const QuizPage = () => {
       {/* Timeout Overlay */}
       {showTimeoutOverlay && (
         <div className="absolute inset-0 z-50 bg-white/70 backdrop-blur-sm flex flex-col items-center justify-center text-black">
-          <h2 className="text-4xl font-bold mb-6 text-[#501578]">TIME'S UP!</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-[#501578]">TIME'S UP!</h2>
           <div className="relative w-20 h-20">
             <svg className="absolute top-0 left-0 w-full h-full transform -rotate-90">
               <circle

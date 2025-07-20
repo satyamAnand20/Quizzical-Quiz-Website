@@ -30,7 +30,7 @@ const QuestionCard = ({
           <span className="font-bold">
             Question {questionNumber} of {totalQuestions}
           </span>
-          <span className="ml-2 bg-slate-700 px-2 py-1 rounded text-sm">
+          <span className="ml-2 bg-slate-700 px-2 py-1 rounded text-sm text-yellow-400">
             Single Select Question
           </span>
         </div>
