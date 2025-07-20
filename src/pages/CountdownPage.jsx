@@ -27,7 +27,7 @@ function CountdownPage() {
   }, [navigate, selectedQuizId]);
 
   return (
-    <div className="relative min-h-screen bg-[#133239] flex items-center justify-center text-white text-center px-4">
+    <div className="relative min-h-screen bg-[#042b36] flex items-center justify-center text-white text-center px-4">
       <NormalShapes className="hidden md:block" />
       <style>
         {`

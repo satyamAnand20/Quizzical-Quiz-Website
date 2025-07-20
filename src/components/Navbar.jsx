@@ -3,7 +3,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
   return (
-    <nav className="w-full bg-gradient-to-br from-[#2C0B4F] to-[#501578] shadow-md py-4 px-4 sm:px-8 md:px-12">
+    <nav
+      className="w-full bg-gradient-to-br from-[#2B0033] to-[#4f0960] shadow-md py-4 px-4 sm:px-8 md:px-12"
+    >
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link
@@ -14,10 +16,8 @@ function Navbar() {
         </Link>
 
         <div className="flex items-center gap-6 text-white text-lg font-bold">
-          
-            <div className="bg-white text-[#FF6C86] font-bold px-3 py-1 rounded-full shadow-sm">
-              🪙 12
-            
+          <div className="bg-white text-[#FF6C86] font-bold px-3 py-1 rounded-full shadow-sm">
+            🪙 12
           </div>
 
           {/* <GiHamburgerMenu className="md:hidden text-4xl cursor-pointer" /> */}

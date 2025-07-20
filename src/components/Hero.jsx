@@ -12,7 +12,7 @@ function Hero({ scrollToQuiz }) {
       </svg>
 
       <div
-        className="relative bg-gradient-to-br from-[#2C0B4F] to-[#501578] px-4 pt-16 pb-28 sm:pb-31 overflow-hidden"
+        className="relative bg-gradient-to-br from-[#2B0033] to-[#4f0960] px-4 pt-16 pb-28 sm:pb-31 overflow-hidden"
         style={{ clipPath: "url(#hero-curve)" }}
       >
         <FloatingShapes />
@@ -28,7 +28,7 @@ function Hero({ scrollToQuiz }) {
           <div className="pt-1">
             <button
               onClick={scrollToQuiz}
-              className="border-2 border-yellow-400 text-yellow-400 font-bold px-8 py-4 rounded-2xl text-lg hover:bg-yellow-400 hover:text-purple-800 transition duration-300"
+              className="border-2 border-yellow-400 text-yellow-400 font-bold px-8 py-4 rounded-2xl text-lg hover:bg-yellow-400 hover:text-purple-900 transition duration-300"
             >
               Start a Quiz
             </button>

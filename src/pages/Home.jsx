@@ -28,7 +28,7 @@ function Home() {
 
       <div className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 max-w-screen-2xl mx-auto">
         {/* Rotating Text Banner */}
-        <div className="h-28 sm:h-32 md:h-36 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-[#2C0B4F] to-[#501578] rounded-2xl">
+        <div className="h-28 sm:h-32 md:h-36 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-[#2B0033] to-[#4f0960] rounded-2xl">
           <AnimatePresence mode="wait">
             <motion.div
               key={textIndex}

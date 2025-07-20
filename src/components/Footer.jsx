@@ -8,7 +8,7 @@ import { GlobeAltIcon } from "@heroicons/react/24/outline";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-[#2C0B4F] to-[#501578] text-white pt-10 pb-6">
+    <footer className="bg-gradient-to-br from-[#2B0033] to-[#4f0960] text-white pt-10 pb-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-6">
           <button className="flex items-center gap-2 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 text-white px-4 py-2 rounded-full font-medium hover:bg-gray-200 transition">
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer Row */}
-        <div className="flex flex-col md:flex-row justify-between items-center border-t border-purple-700 pt-6 gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-center border-t border-purple-900 pt-6 gap-4">
           {/* Copyright */}
           <p className="text-sm text-center md:text-left">
             Quizzical © 2025. All rights reserved.
