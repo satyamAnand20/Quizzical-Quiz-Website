@@ -1,15 +1,30 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
-html, body {
+html,
+body {
   @apply w-full min-h-screen overflow-x-hidden;
   overscroll-behavior: none;
 }
 
 * {
-  @apply  box-border;
+  @apply box-border;
+}
+
+#root {
+  @apply w-full min-h-screen flex flex-col;
+} */
+
+@import "tailwindcss";
+
+html,
+body {
+  @apply w-full min-h-screen overflow-x-hidden overflow-y-auto;
+}
+
+* {
+  @apply box-border;
 }
 
 #root {
   @apply w-full min-h-screen flex flex-col;
 }
-
